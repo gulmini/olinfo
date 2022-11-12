@@ -81,6 +81,8 @@ training/lca
 training/minvalue
 training/paletta
 training/salesman
+po/po_pietre
+pre-boi/pre_boi_cerchi
 
 # settings
 .vscode

@@ -5,7 +5,7 @@
 using namespace std;
 const string quack = "quack";
 
-int N;
+int n;
 string s;
 
 void convert(string &s) {
@@ -14,12 +14,12 @@ void convert(string &s) {
 }
 
 int main() {
-	cin >> N;
+	cin >> n;
 	cin.ignore();
 
-	int res = N;
+	int res = n;
 
-	for (int i=0; i<N; i++) {
+	for (int i=0; i<n; i++) {
 		getline(cin, s);
 		convert(s);
 		for (char c = 'a'; c <= 'z'; c++) {
