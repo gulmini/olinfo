@@ -1,7 +1,80 @@
-**/file.out
-**/a.out
-**/in
-**/out
-**/generator.cpp
-**/cout
-**/wout
+# compiled files
+file.out
+a.out
+
+# input / output files
+in
+out
+cout
+wout
+input.txt
+output.txt
+
+
+# auxillary cpp files
+*.cpp
+!file.cpp
+
+# scripts
+*.sh
+*.py
+
+# Algobadge
+training/biglietti
+training/massimo
+training/catalogo
+training/cestini
+training/nonna
+training/segtree
+abc/abc_rsa
+abc/abc_quadri
+ois/ois_scrigni
+ois/ois_cabala
+ois/ois_solitario
+ois/ois_truffa
+ois/ois_islands
+training/mincammino
+pre-oii/preoii_treni
+oii/2015/oii_paletta
+
+# PO
+po/po_2022
+
+# Unfinished problems
+ioi/2008/islands
+ioi/2009/salesman
+ioit/plagiarism
+itoi/weakhash
+oii/2012/oii_matita
+oii/2014/oii_maree
+oii/2016/oii_classifica
+oii/2016/oii_lungomare
+oii/2018/oii_specchi
+oii/2019/oii_orticoltura
+oii/2019/oii_pangramma
+oii/2020/oii_ristorante
+oii/2021/oii_foglietto
+oii/2021/oii_trendytrash
+oii/2022/oii_coda
+oii/2022/oii_dna
+ois/ois_calculator
+ois/ois_collision
+ois/ois_copyright
+ois/ois_fairgame
+ois/ois_fractal
+ois/ois_git
+ois/ois_infection
+ois/ois_keygen
+ois/ois_machine
+ois/ois_martianwar
+ois/ois_pancake
+ois/ois_polygon
+ois/ois_pulse
+ois/ois_scmax
+ois/ois_sum
+ois/ois_team
+ois/ois_tractor
+ois/ois_walker
+
+# settings
+.vscode

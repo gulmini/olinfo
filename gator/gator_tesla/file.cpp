@@ -1,6 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
-const int INF = INT32_MAX / 4;
+const int inf = INT32_MAX / 4;
 
 int main() {
    freopen("input.txt", "r", stdin);
@@ -12,8 +12,8 @@ int main() {
       v[i] = e - 10;
       v.push_back(e - 10);
    }
-   int sum = -INF;
-   int best = -INF;
+   int sum = -inf;
+   int best = -inf;
    int startpos = -1;
    int bestpos = -1;
    for (int i = 0; i < 2*n; i++) {
