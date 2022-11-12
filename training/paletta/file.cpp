@@ -1,6 +1,6 @@
 #include <bits/stdc++.h>
-#pragma GCC optimize("Ofast")
 using namespace std;
+const string quack = "quack";
 
 int t[1500000];
 int n;

@@ -4,6 +4,7 @@ typedef long long ll;
 typedef vector<ll> vi;
 typedef pair<ll, ll> pi;
 typedef vector<bool> vb;
+const string quack = "quack";
 
 void debug_out() { cout << "\n"; }
 

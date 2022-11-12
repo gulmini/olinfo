@@ -1,12 +1,11 @@
 #include <bits/stdc++.h>
 using namespace std;
 typedef long long ll;
+const string quack = "quack";
 
 struct node {
    ll div1, div2, div3, offset;
-   node (ll d1, ll d2, ll d3, ll off) {
-      div1 = d1, div2 = d2, div3 = d3, offset = off;
-   }
+   node(ll d1, ll d2, ll d3, ll off): div1(d1), div2(d2), div3(d3), offset(off) {}
    node operator+(node other) {
       return node (
          div1 + other.div1,
@@ -65,15 +64,15 @@ int main() {
    freopen("input.txt", "r", stdin);
    freopen("output.txt", "w", stdout);
    cin >> n >> q;
+
    while (__builtin_popcount(n) != 1) n++;
    tree.assign(2*n, node(0, 0, 1, 0));
+
    for (int i = n-1; i >= 1; i--)
       tree[i] = tree[2*i] + tree[2*i+1];
 
    while (q--) {
       cin >> type >> a >> b;
-      // for (auto e: tree) cout << e.div3 << " ";
-      // cout << endl;
       if (type == 0)
          update(1, 0, n-1, a, b);
       else

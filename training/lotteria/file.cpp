@@ -2,8 +2,9 @@
 using namespace std;
 typedef long long ll;
 typedef vector<ll> vi;
+constexpr ll MOD = 1e9 + 7;
+const string quack = "quack";
 
-const ll MOD = 1e9 + 7;
 ll n, k;
 bool b = false;
 vector<vi> p;
@@ -17,5 +18,5 @@ int main() {
 		for (int j = 1; j <= k; j++)
 			p[b][j] = (p[not b][j/2] + p[b][j-1]) % MOD;
 	}
-	cout << p[b][k];
+	cout << p[b][k] << endl;
 }

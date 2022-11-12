@@ -1,8 +1,8 @@
 #include <bits/stdc++.h>
-#pragma GCC optimize("O3")
 using namespace std;
-typedef int_fast64_t ll;
+typedef long long ll;
 typedef vector<ll> vi;
+const string quack = "quack";
 
 char c;
 ll n, q, a, t = 0, x = 0;
@@ -32,10 +32,8 @@ void dfs(int i) {
 }
 
 int main() {
-	// freopen("in", "r", stdin);
 	freopen("input.txt", "r", stdin);
 	freopen("output.txt", "w", stdout);
-	ios::sync_with_stdio(false); cin.tie(0); cout.tie(0);
 	cin >> n >> q;
 	adj.resize(n); v.resize(n); r.resize(n);
 	w.resize(n); p.resize(n); l.resize(n);
