@@ -19,6 +19,9 @@ output.txt
 *.sh
 *.py
 
+# test statements
+*.pdf
+
 # Algobadge
 training/biglietti
 training/massimo
@@ -39,6 +42,7 @@ oii/2015/oii_paletta
 
 # PO
 po/po_2022
+po/po_2023
 
 # Unfinished problems
 ioi/2008/islands
@@ -88,6 +92,7 @@ pre-oii/preoii_sushi
 tai/tai_hasta
 tai/tai_sfere
 tai/tai_gita
+gator/gator_pcollatz
 
 # settings
 .vscode
