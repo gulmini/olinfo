@@ -59,12 +59,10 @@ oii/2019/oii_pangramma
 oii/2020/oii_ristorante
 oii/2021/oii_foglietto
 oii/2021/oii_trendytrash
-oii/2022/oii_coda
-oii/2022/oii_dna
-ois/ois_calculator
 ois/ois_collision
 ois/ois_copyright
 ois/ois_fairgame
+ois/ois_fossils
 ois/ois_fractal
 ois/ois_git
 ois/ois_infection
@@ -85,11 +83,11 @@ training/lca
 training/minvalue
 training/paletta
 training/salesman
+training/cameradeisegreti
 po/po_pietre
 pre-boi/pre_boi_cerchi
 pre-oii/preoii_crew
 pre-oii/preoii_sushi
-tai/tai_hasta
 tai/tai_sfere
 tai/tai_gita
 gator/gator_pcollatz
